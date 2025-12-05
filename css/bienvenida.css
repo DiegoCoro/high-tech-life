@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Life+Savers:wght@400;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Della+Respira&family=Life+Savers:wght@400;700;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Della+Respira&family=Life+Savers:wght@400;700;800&family=Pirata+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* titulo */
+
+.titulo {
+    font-family: "della respira";
+    background-color: #e75e7a;
+    border: 1px solid rgba(6, 7, 6, 0.205);
+    text-align: center;
+    font-size: clamp(30px, 8vw, 15px);
+}
+
+.header {
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+        
+
+}
+
+.imagen {
+    width: 20%;    
+    
+}
+
+.imagen2 {
+    width: 20%;    
+    
+}
+
+.gif {
+    width: 25%;    
+
+}
+
+/* menu*/
+
+.menu {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid;
+    
+}
+
+.lista-links {
+    font-family:"Life Savers", sans-serif;
+    list-style-type: none;
+    display: flex;
+    padding: 1px 12px 1px;
+    margin: 1px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: x-large;
+}
+
+.link {
+    text-decoration: none;
+    color:rgb(57, 196, 57);
+}
+
+
+.contenido{
+    text-align: center;
+}
+
+/*bienvenida*/
+
+.bienvenida {
+    text-align: center;
+    font-family: "life savers";
+    color:rgb(32, 84, 39);
+    font-size: x-large;
+    padding: 5px;
+    background-color: aliceblue;
+}
+
+
+.solar{
+
+    width: 50%;
+}
+
+.texto {
+    font-family: "Pirata one";
+    font-weight: 700;
+    font-size: clamp(30px, 8vw, 15px);
+    background-color: rgb(255, 255, 255);
+    color: rgba(0, 255, 38, 0.303);
+    padding: 5px 0px;
+    
+}
+
+/* productos*/
+
+.producto{
+    font-family: "della respira";
+    background-color: #d45252c2;
+    text-align: center;
+    padding: 10px 20px 10px;
+    color: rgb(224, 246, 246);
+   
+}
+.productos {
+    text-align: center;
+    padding: 1px 10px 10px;
+    color: rgb(15, 16, 16);
+
+}
+
+
+.prod-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.prod-item{
+    border: 1px solid rgb(0, 255, 26);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 8px;
+    margin-top: 12px;
+}
+
+.prod-tit {
+    text-align: center;
+    margin-bottom: 8px;
+}
+.precio {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+.off {
+    color: blue;
+}
+.descripcion {
+    width: 280px;
+    margin-bottom: 8px;
+}
+
+
+
+.botonera {
+    text-align: center;
+}
+
+.btn-agregar {
+    font-family: "della respira";
+    margin: 8px;
+    background-color: rgb(196, 200, 255);
+    color: azure;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.btn-agregar:hover {
+    background-color: #e75e7a;
+}
+
+.imagen-card {
+    width: 280px;
+}
+
+/* contacto*/
+
+.contacto {
+    text-align: center;
+    color: rgb(238, 248, 248);
+    background-color: rgb(152, 178, 200);
+    font-family: "della respira";
+    margin: 1px;
+    border: 2px solid darkcyan;
+}
+
+.gif2{
+    width: 300px; 
+    border: solid;
+}
+
+.subtit-contacto {
+    font-size: clamp(16px, 4vw, 24px);
+    text-align: center;
+    font-family: "Pirata one";
+    margin: 16px;
+}
+
+
+
+/* formulario */
+
+.form-container{
+    text-align: center;
+    padding-bottom: 12px;
+}
+
+.formulario{
+    background-color: hsla(210, 13%, 85%, 0.779);
+    font-size: 16px;
+    border: 1px solid darkcyan;
+    border-radius: 8px;
+    width: 300px;
+    margin: auto;
+}
+
+input[type=text],[type=email],textarea {
+  color: blue;
+  border: none;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Pirata one";
+}
+
+input[type=text] {
+  margin: 32px;
+  border-bottom: 1px solid darkblue ;
+}
+
+input[type=email] {
+  margin-bottom: 32px;
+  border-bottom: 1px solid darkblue ;
+}
+
+.mensaje {
+  margin-bottom: 32px;
+  border: 1px solid darkblue ;
+  padding: 2px;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+.btn-enviar {
+  margin-bottom: 32px;
+  padding: 8px;
+  background-color: #1845cb;
+  color: #c7cfe5;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.btn-enviar:hover {
+  background-color: #04164b;
+}
+
+
+/* footer */
+
+.footer {
+  background-color: #056c92;
+  color: azure;
+  display: flex;
+  flex-direction: row;
+  flex-wrap:wrap;
+  align-items: center;
+  text-align: center;
+  padding: 32px 0;
+  gap: 6px 0;
+  font-size: 2.5vw;
+
+}
+
+
+
+.footer-links {
+  width: 33%;
+  font-size: (26px, 10vw, 52px);
+  
+  
+}
+
+.footer-ul {
+  font-family: "Pirata one";
+  font-size: 40px;
+}
+
+
+.footer-mapa {   
+   width: 33%
+  
+   
+   
+}
+
+.texto-redes {
+    font-size: larger;
+    font-family: "Pirata one";
+    color: cadetblue
+}
+
+.footer-redes {
+   width: 33%;
+   flex-direction: row;
+     
+}
+
+.footer-redes svg {
+  width: 60px;
+  fill: cadetblue;
+}
+
+
+.copyright{
+    text-align: center;
+    font-family: "Pirata one";
+    background-color: #fcf4f5;
+    padding: 12px 0;
+    font-size: medium;
+
+}
+
+/* medias queries */
+
+@media only screen and (320px <= width <= 768px) {
+
+    
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+    .footer-redes{
+        background-color: #fedfe3dd;
+        flex-direction: row;
+
+    }
+
+   .footer-mapa {   
+     width: 100%;
+     
+    
+  
+   
+    }
+    
+    .footer-ul {
+        font-family: "Pirata one";
+        font-size: 30px;
+        background-color: #8f97ea;
+    }
+
+    .texto-redes {
+        font-size: 30px;
+        font-family: "Pirata one";
+        color: rgb(9, 6, 134)
+    }
+
+
+    .solar{
+        width: 300px;
+    }    
+}  
